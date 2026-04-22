@@ -2,7 +2,7 @@ import React from 'react'
 import RecipeCard from '../components/RecipeCard'
 import mockRecipes from '../data/mockRecipes'
 import { motion } from 'framer-motion'
-import heroImg from '../assets/Lotus delight salad.png'
+import heroImg from '../assets/Image 73.png'
 import avatarImg from '../assets/avatar_small.png'
 import { FiArrowRight } from 'react-icons/fi'
 
