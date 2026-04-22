@@ -8,11 +8,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto p-8 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>
           <div className="flex items-center gap-2 mb-3">
-            <img src={logoImg} alt="Chefify" className="w-8 h-8 rounded-full object-cover flex-shrink-0" />
+            <img src={logoImg} alt="Chefify" className="w-12 h-12 object-contain flex-shrink-0" />
           </div>
           <p className="text-sm text-gray-300 mt-2">Curated recipes for every occasion.</p>
           <div className="mt-4 flex">
-            <input className="rounded-l-md p-2 text-sm" placeholder="Your email" />
+            <input className="rounded-l-md p-2 text-sm text-gray-900" placeholder="Your email" />
             <button className="bg-pink-500 px-4 rounded-r-md">Send</button>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Footer() {
       <div className="border-t border-gray-700 py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between text-sm text-gray-300 px-8">
           <div className="flex items-center gap-3">
-            <img src={logoImg} alt="Chefify" className="w-8 h-8 rounded-full object-cover flex-shrink-0" />
+            <img src={logoImg} alt="Chefify" className="w-12 h-12 object-contain flex-shrink-0" />
             <div className="truncate">© 2023 Company</div>
           </div>
           <div className="flex gap-4">
